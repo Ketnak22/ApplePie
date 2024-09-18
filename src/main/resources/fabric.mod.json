@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "apple-pie",
+	"version": "${version}",
+	"name": "Apple Pie",
+	"description": "Because apples themself are kinda boring!",
+	"authors": [
+		"Ketnak"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/apple-pie/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ketnak.applepie.ApplePie"
+		],
+		"client": [
+			"net.ketnak.applepie.ApplePieClient"
+		],
+		"fabric-datagen": [
+			"net.ketnak.applepie.ApplePieDataGenerator"
+		]
+	},
+	"mixins": [
+		"apple-pie.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
