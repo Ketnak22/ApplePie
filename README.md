@@ -1,2 +1,2 @@
 # ApplePie
-Because apples themself are kinda boring!
+Because apples themselves are kinda boring!
