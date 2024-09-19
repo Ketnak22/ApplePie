@@ -12,6 +12,8 @@ public class ModItems {
 
     public static final Item APPLE_PIE = registerItem("apple_pie", new Item(new Item.Settings()));
 
+    public static final Item GOLDEN_APPLE_PIE = registerItem("golden_apple_pie", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ApplePie.MOD_ID, name), item);
     }
@@ -21,6 +23,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(APPLE_PIE);
+            entries.add(GOLDEN_APPLE_PIE);
         });
     }
 
