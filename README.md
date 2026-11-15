@@ -18,3 +18,18 @@ It heals and saturates you the same way as pumpkin pie would.
 **Enchanted Golden Apple Pie:**
 
 ![enchanted_apple_pie](https://github.com/user-attachments/assets/66b5cafb-487c-4c98-96ba-236fbcfd7405)
+
+### Requirements
+
+- Minecraft 1.21
+- Fabric Loader 0.16.5 or newer
+- Fabric API (built against 0.102.0+1.21)
+- Java 21
+
+### Building
+
+```
+./gradlew build
+```
+
+The mod jar ends up in `build/libs/`.
