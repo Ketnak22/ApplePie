@@ -25,9 +25,6 @@
 			"net.ketnak.applepie.ApplePieDataGenerator"
 		]
 	},
-	"mixins": [
-		"apple-pie.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.16.5",
 		"minecraft": "~1.21",
